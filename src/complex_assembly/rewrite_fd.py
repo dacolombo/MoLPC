@@ -101,4 +101,4 @@ if len(files)>0:
             continue
         subid = pdbname.split('/')[-2]
         #Rewrite the files
-        write_pdb(chains, pdbname.split('.')[0]+'_rw'+'.pdb')
+        write_pdb(chains, os.path.splitext(pdbname)[0]+'_rw'+'.pdb')
