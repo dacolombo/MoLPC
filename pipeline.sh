@@ -1,11 +1,8 @@
-
-#############Activate env#############
-conda activate molpc
 #############PARAMETERS#############
 BASE=$(pwd) #Where all scripts are run from, now the current directory
 ID=1A8R
 DATADIR=$BASE/data/test/
-HHBLITS=$BASE/src/hh-suite/bin/hhblits #Path to hhblits version 3.1.0
+HHBLITS=hhblits #Path to hhblits version 3.1.0
 HHBLITSDB=$BASE/data/uniclust30_2018_08/uniclust30_2018_08
 ###Note!
 #This runscript assumes that you have singularity in your path
